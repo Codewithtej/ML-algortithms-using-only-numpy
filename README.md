@@ -28,7 +28,7 @@ model.fit(X_train, y_train)
 
 # Make predictions on new data
 predictions = model.predict(X_test)
-
+```
 # Logistic Regression (LogisticRegression)
 
 The `LogisticRegression` class implements logistic regression using gradient descent optimization. It includes methods for fitting the model to training data, making predictions on new data, and computing probabilities.
@@ -49,7 +49,7 @@ predictions = model.predict(X_test)
 
 # Get probabilities
 probabilities = model.predict_proba(X_test)
-
+```
 # Ridge Regression (RidgeRegression)
 
 The `RidgeRegression` class implements ridge regression using gradient descent optimization. It includes methods for fitting the model to training data and making predictions on new data.
@@ -67,8 +67,7 @@ model.fit(X_train, y_train)
 
 # Make predictions on new data
 predictions = model.predict(X_test)
-
-
+```
 # Naive Bayes (NaiveBayes)
 
 ## Usage
@@ -88,7 +87,7 @@ model.fit(X_train, y_train)
 
 # Make predictions on new data
 predictions = model.predict(X_test)
-
+```
 
 
 # Decision Tree Implementations
@@ -139,7 +138,7 @@ predictions = model.predict(X_test)
 
 # Evaluate the model
 r2_score = model.score(X_test, y_test)
-
+```
 
 ### Classification Tree
 
@@ -157,7 +156,7 @@ predictions = model.predict(X_test)
 
 # Evaluate the model
 accuracy = model.score(X_test, y_test)
-
+```
 
 # Random Forest Implementations
 
@@ -191,7 +190,7 @@ predictions = model.predict(X_test)
 
 # Evaluate the model
 r2_score = model.score(X_test, y_test)
-
+```
 
 # Random Forest Implementations
 
