@@ -31,7 +31,7 @@ predictions = model.predict(X_test)
 ```
 # Logistic Regression (LogisticRegression)
 
-The `LogisticRegression` class implements logistic regression using gradient descent optimization. It includes methods for fitting the model to training data, making predictions on new data, and computing probabilities.
+The `LogisticRegression` class implements logistic regression using gradient descent optimization. It includes the methods for fitting the model to training data, making predictions on new data, and computing probabilities.
 
 ## Usage
 
